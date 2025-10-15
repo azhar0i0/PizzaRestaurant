@@ -1,0 +1,71 @@
+.user-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f4f6fa;
+  color: #333;
+}
+
+.user-sidebar {
+  width: 230px;
+  background-color: #3b71ca;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-circle img {
+  width: 55px;
+  height: 55px;
+}
+
+.sidebar-title {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.logout-btn {
+  background: transparent;
+  border: none;
+  color: #fff;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s;
+}
+
+.logout-btn:hover {
+  color: #ffcccb;
+}
+
+.user-main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #3b71ca;
+}
+
+.user-dashboard {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}

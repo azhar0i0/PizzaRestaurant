@@ -1,0 +1,379 @@
+/* ===========================
+   Login Page Professional Styling
+   =========================== */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    flex-direction: row;
+  }
+}
+
+/* ---------- Left Section ---------- */
+.login-form-container {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start !important;
+  padding: 2rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .login-form-container {
+    padding: 4rem 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .login-form-container {
+    padding: 5rem 6rem;
+  }
+}
+
+/* ---------- Logo ---------- */
+.login-logo img{
+  margin-bottom: 0%;
+  size: 100px !important;
+}
+
+/* ---------- Text ---------- */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111;
+  text-align: left !important;
+}
+.login-subtitle {
+  color: #555;
+  text-align: left !important;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+/* ---------- Form ---------- */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.login-field label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.login-field input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.login-field input:focus {
+  outline: none;
+  border-color: #d93025;
+  box-shadow: 0 0 5px rgba(217, 48, 37, 0.3);
+}
+
+/* ---------- Password Field ---------- */
+.password-container {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+.eye-icon:hover {
+  color: #d93025;
+}
+
+/* ---------- Messages ---------- */
+.login-message {
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.login-message.error {
+  color: #d93025;
+  background: #ffe9e7;
+  border: 1px solid #f5b1ad;
+}
+.login-message.success {
+  color: #1b873f;
+  background: #e8f8ed;
+  border: 1px solid #9be4b3;
+}
+
+/* ---------- Button ---------- */
+.login-button {
+  background-color: #d93025;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-button:hover {
+  background-color: #b92b20;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Demo Info ---------- */
+.demo-info {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+}
+
+/* ---------- Right Section ---------- */
+.login-image {
+  flex: 1;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .login-image {
+    height: auto;
+  }
+}
+/* ===========================
+   Login Page Professional Styling
+   =========================== */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    flex-direction: row;
+  }
+}
+
+/* ---------- Left Section ---------- */
+.login-form-container {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .login-form-container {
+    padding: 4rem 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  .login-form-container {
+    padding: 5rem 6rem;
+  }
+}
+
+/* ---------- Logo ---------- */
+.login-logo {
+  margin-bottom: 1.5rem;
+}
+.logo-circle {
+  width: 60px;
+  height: 60px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+/* ---------- Text ---------- */
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #111;
+  text-align: center;
+}
+.login-subtitle {
+  color: #555;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+/* ---------- Form ---------- */
+.login-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.login-field label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.login-field input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.login-field input:focus {
+  outline: none;
+  border-color: #d93025;
+  box-shadow: 0 0 5px rgba(217, 48, 37, 0.3);
+}
+
+/* ---------- Password Field ---------- */
+.password-container {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+.eye-icon:hover {
+  color: #d93025;
+}
+
+/* ---------- Messages ---------- */
+.login-message {
+  text-align: center;
+  padding: 0.6rem;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.login-message.error {
+  color: #d93025;
+  background: #ffe9e7;
+  border: 1px solid #f5b1ad;
+}
+.login-message.success {
+  color: #1b873f;
+  background: #e8f8ed;
+  border: 1px solid #9be4b3;
+}
+
+/* ---------- Button ---------- */
+.login-button {
+  background-color: #d93025;
+  color: #fff;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.login-button:hover {
+  background-color: #b92b20;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------- Demo Info ---------- */
+.demo-info {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #888;
+  text-align: center;
+}
+
+/* ---------- Right Section ---------- */
+.login-image {
+  flex: 1;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.login-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .login-image {
+    height: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .login-image{
+    display: none !important;
+  }
+}
+
+.forgot-password {
+  margin-top: 1rem;
+  color: #d93025;
+  text-align: right;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.forgot-password:hover {
+  color: #b92b20;
+  text-decoration: underline;
+}
